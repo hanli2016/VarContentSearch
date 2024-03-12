@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "l0Swnp9YF6VCDEpK7ADGsh6iIPRKlK8ZwhgV9VKK33IFWmM4PNCZvSnin+vGhnlxWebi9xo3pXtb0hNthJfwDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\limyhome\\Desktop\\var\\VarContentSearch\\VarContentSearch\\VarContentSearch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\limyhome\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\limyhome\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\limyhome\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\limyhome\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

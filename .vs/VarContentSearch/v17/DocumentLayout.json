@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\limyhome\\Desktop\\var\\VarContentSearch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E513C8-3728-4E3B-BCFF-60A35C6B83DF}|VarContentSearch\\VarContentSearch.csproj|c:\\users\\limyhome\\desktop\\var\\varcontentsearch\\varcontentsearch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8E513C8-3728-4E3B-BCFF-60A35C6B83DF}|VarContentSearch\\VarContentSearch.csproj|solutionrelative:varcontentsearch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E513C8-3728-4E3B-BCFF-60A35C6B83DF}|VarContentSearch\\VarContentSearch.csproj|C:\\Users\\limyhome\\Desktop\\var\\VarContentSearch\\varcontentsearch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E513C8-3728-4E3B-BCFF-60A35C6B83DF}|VarContentSearch\\VarContentSearch.csproj|solutionrelative:varcontentsearch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E513C8-3728-4E3B-BCFF-60A35C6B83DF}|VarContentSearch\\VarContentSearch.csproj|C:\\Users\\limyhome\\Desktop\\var\\VarContentSearch\\varcontentsearch\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E513C8-3728-4E3B-BCFF-60A35C6B83DF}|VarContentSearch\\VarContentSearch.csproj|solutionrelative:varcontentsearch\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\limyhome\\Desktop\\var\\VarContentSearch\\VarContentSearch\\Form1.cs",
+              "RelativeDocumentMoniker": "VarContentSearch\\Form1.cs",
+              "ToolTip": "C:\\Users\\limyhome\\Desktop\\var\\VarContentSearch\\VarContentSearch\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "VarContentSearch\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T12:22:03.783Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\limyhome\\Desktop\\var\\VarContentSearch\\VarContentSearch\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "VarContentSearch\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\limyhome\\Desktop\\var\\VarContentSearch\\VarContentSearch\\Form1.Designer.cs",
+              "RelativeToolTip": "VarContentSearch\\Form1.Designer.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAcwJEAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T05:04:17.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\limyhome\\Desktop\\var\\VarContentSearch\\VarContentSearch\\Form1.cs",
+              "RelativeDocumentMoniker": "VarContentSearch\\Form1.cs",
+              "ToolTip": "C:\\Users\\limyhome\\Desktop\\var\\VarContentSearch\\VarContentSearch\\Form1.cs",
+              "RelativeToolTip": "VarContentSearch\\Form1.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwHAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T03:17:19.411Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
