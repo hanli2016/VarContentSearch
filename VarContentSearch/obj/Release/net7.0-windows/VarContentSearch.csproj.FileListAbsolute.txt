@@ -14,3 +14,5 @@ C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net7
 C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net7.0-windows\VarContentSearch.pdb
 C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net7.0-windows\VarContentSearch.genruntimeconfig.cache
 C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net7.0-windows\ref\VarContentSearch.dll
+C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\bin\Release\net7.0-windows\VarContentSearch.dll.config
+C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net7.0-windows\VarContentSearch.sourcelink.json

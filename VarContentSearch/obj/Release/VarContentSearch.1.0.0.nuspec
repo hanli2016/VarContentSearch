@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>VarContentSearch</id>
+    <version>1.0.0</version>
+    <authors>VarContentSearch</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="ad5a95ab82c792bff98e5f411bb6c1773a05e070" />
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net7.0-windows7.0/005.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\bin\Release\net7.0-windows7.0\VarContentSearch.runtimeconfig.json" target="lib\net7.0-windows7.0\VarContentSearch.runtimeconfig.json" />
+    <file src="C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\bin\Release\net7.0-windows7.0\VarContentSearch.dll" target="lib\net7.0-windows7.0\VarContentSearch.dll" />
+    <file src="C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\005.ico" target="content\005.ico" />
+    <file src="C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\005.ico" target="contentFiles\any\net7.0-windows7.0\005.ico" />
+  </files>
+</package>

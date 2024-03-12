@@ -1,0 +1,7 @@
+C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net5.0-windows7.0\VarContentSearch.Form1.resources
+C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net5.0-windows7.0\VarContentSearch.csproj.GenerateResource.cache
+C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net5.0-windows7.0\VarContentSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net5.0-windows7.0\VarContentSearch.AssemblyInfoInputs.cache
+C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net5.0-windows7.0\VarContentSearch.AssemblyInfo.cs
+C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net5.0-windows7.0\VarContentSearch.csproj.CoreCompileInputs.cache
+C:\Users\limyhome\Desktop\var\VarContentSearch\VarContentSearch\obj\Release\net5.0-windows7.0\VarContentSearch.sourcelink.json
