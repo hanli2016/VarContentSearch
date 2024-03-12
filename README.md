@@ -1,6 +1,6 @@
 # VarContentSearch
 
-![image](img/Quicker_20240312_230903.png)
+![image](VarContentSearch/img/Quicker_20240312_230903.png)
 
 搜索指定文件夹下的所有后缀为var的压缩文件内部文件列表：用于为var包补充依赖。
 
