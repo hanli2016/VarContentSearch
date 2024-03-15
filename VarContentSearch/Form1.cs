@@ -1,5 +1,6 @@
 using System.IO;
 using System.IO.Compression;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace VarContentSearch
 {
@@ -22,7 +23,7 @@ namespace VarContentSearch
             }
         }
 
-        private void btn_Search_Click(object sender, EventArgs e)
+        private async void btn_Search_Click(object sender, EventArgs e)
         {
             string folderPath = tbx_SearchPath.Text.Trim();
             string partialFileName = txb_FileName.Text.Trim();
@@ -41,9 +42,16 @@ namespace VarContentSearch
 
             // 清空现有的 ListView
             lsv_SearchResult.Items.Clear();
+            //设置进度条最大最小值
+            pgb_Progress.Value = 0;
+            pgb_Progress.Minimum = 0;
+            pgb_Progress.Maximum = Directory.GetFiles(folderPath, "*.var", SearchOption.AllDirectories).Length;
 
             // 搜索并显示结果
-            List<string[]> searchResults = SearchFileInZips(folderPath, partialFileName);
+            List<string[]> searchResults = await Task.Run(() =>
+            {
+                return SearchFileInZips(folderPath, partialFileName);
+            });
 
             if (searchResults.Count == 0)
             {
@@ -69,16 +77,18 @@ namespace VarContentSearch
                 }
             }
         }
-        static List<string[]> SearchFileInZips(string folderPath, string partialFileName)
+        //已查找var文件数量
+        private int completedCount = 0;
+        private List<string[]> SearchFileInZips(string folderPath, string partialFileName)
         {
             List<string[]> output = new List<string[]>();
 
             string[] zipFiles = Directory.GetFiles(folderPath, "*.var", SearchOption.AllDirectories);
-
+            
             string programDirectory = AppDomain.CurrentDomain.BaseDirectory;
             string logFilePath = Path.Combine(programDirectory, "log.txt");
 
-            Parallel.ForEach(zipFiles, (zipFile) =>
+            Parallel.ForEach(zipFiles,(zipFile, loopState) =>
             {
                 try
                 {
@@ -111,12 +121,33 @@ namespace VarContentSearch
                 catch (Exception ex)
                 {
                     // Handle other exceptions if necessary
-                    string errorMessage = "发生错误：" + ex.Message + "路径为：" +zipFile.ToString() + "\r\n";
+                    string errorMessage = "发生错误：" + ex.Message + "路径为：" + zipFile.ToString() + "\r\n";
                     LogError(logFilePath, errorMessage);
                 }
+                // 计数
+                Interlocked.Add(ref completedCount, 1);
+                // 更新进度条
+                UpdateProgressBar();
             });
-
             return output;
+        }
+
+        private void UpdateProgressBar()
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new MethodInvoker(UpdateProgressBar));
+                return;
+            }
+            //避免并行计数时的计数错误
+            if (completedCount> pgb_Progress.Maximum)
+            {
+                pgb_Progress.Value = pgb_Progress.Maximum;
+            }
+            else { 
+                pgb_Progress.Value = completedCount;
+            }
+            
         }
 
         private void lsv_SearchResult_DoubleClick(object sender, EventArgs e)

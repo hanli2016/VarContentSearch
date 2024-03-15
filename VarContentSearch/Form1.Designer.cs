@@ -36,6 +36,7 @@
             label1 = new Label();
             tbx_SearchPath = new TextBox();
             btn_SelectPath = new Button();
+            splitContainer2 = new SplitContainer();
             lsv_SearchResult = new ListView();
             columnHeader6 = new ColumnHeader();
             columnHeader1 = new ColumnHeader();
@@ -43,10 +44,15 @@
             columnHeader3 = new ColumnHeader();
             columnHeader4 = new ColumnHeader();
             columnHeader5 = new ColumnHeader();
+            pgb_Progress = new ProgressBar();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer2).BeginInit();
+            splitContainer2.Panel1.SuspendLayout();
+            splitContainer2.Panel2.SuspendLayout();
+            splitContainer2.SuspendLayout();
             SuspendLayout();
             // 
             // splitContainer1
@@ -68,7 +74,7 @@
             // 
             // splitContainer1.Panel2
             // 
-            splitContainer1.Panel2.Controls.Add(lsv_SearchResult);
+            splitContainer1.Panel2.Controls.Add(splitContainer2);
             splitContainer1.Size = new Size(1384, 861);
             splitContainer1.SplitterDistance = 78;
             splitContainer1.TabIndex = 9;
@@ -129,6 +135,25 @@
             btn_SelectPath.UseVisualStyleBackColor = true;
             btn_SelectPath.Click += btn_SelectPath_Click;
             // 
+            // splitContainer2
+            // 
+            splitContainer2.Dock = DockStyle.Fill;
+            splitContainer2.FixedPanel = FixedPanel.Panel2;
+            splitContainer2.Location = new Point(0, 0);
+            splitContainer2.Name = "splitContainer2";
+            splitContainer2.Orientation = Orientation.Horizontal;
+            // 
+            // splitContainer2.Panel1
+            // 
+            splitContainer2.Panel1.Controls.Add(lsv_SearchResult);
+            // 
+            // splitContainer2.Panel2
+            // 
+            splitContainer2.Panel2.Controls.Add(pgb_Progress);
+            splitContainer2.Size = new Size(1384, 779);
+            splitContainer2.SplitterDistance = 750;
+            splitContainer2.TabIndex = 6;
+            // 
             // lsv_SearchResult
             // 
             lsv_SearchResult.Alignment = ListViewAlignment.Default;
@@ -139,11 +164,10 @@
             lsv_SearchResult.Location = new Point(0, 0);
             lsv_SearchResult.MultiSelect = false;
             lsv_SearchResult.Name = "lsv_SearchResult";
-            lsv_SearchResult.Size = new Size(1384, 779);
-            lsv_SearchResult.TabIndex = 3;
+            lsv_SearchResult.Size = new Size(1384, 750);
+            lsv_SearchResult.TabIndex = 4;
             lsv_SearchResult.UseCompatibleStateImageBehavior = false;
             lsv_SearchResult.View = View.Details;
-            lsv_SearchResult.DoubleClick += lsv_SearchResult_DoubleClick;
             // 
             // columnHeader6
             // 
@@ -180,6 +204,14 @@
             columnHeader5.TextAlign = HorizontalAlignment.Center;
             columnHeader5.Width = 400;
             // 
+            // pgb_Progress
+            // 
+            pgb_Progress.Dock = DockStyle.Fill;
+            pgb_Progress.Location = new Point(0, 0);
+            pgb_Progress.Name = "pgb_Progress";
+            pgb_Progress.Size = new Size(1384, 25);
+            pgb_Progress.TabIndex = 5;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
@@ -194,6 +226,10 @@
             splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            splitContainer2.Panel1.ResumeLayout(false);
+            splitContainer2.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer2).EndInit();
+            splitContainer2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -206,6 +242,7 @@
         private Label label1;
         private TextBox tbx_SearchPath;
         private Button btn_SelectPath;
+        private SplitContainer splitContainer2;
         private ListView lsv_SearchResult;
         private ColumnHeader columnHeader6;
         private ColumnHeader columnHeader1;
@@ -213,5 +250,6 @@
         private ColumnHeader columnHeader3;
         private ColumnHeader columnHeader4;
         private ColumnHeader columnHeader5;
+        private ProgressBar pgb_Progress;
     }
 }
