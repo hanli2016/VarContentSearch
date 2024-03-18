@@ -168,6 +168,7 @@
             lsv_SearchResult.TabIndex = 4;
             lsv_SearchResult.UseCompatibleStateImageBehavior = false;
             lsv_SearchResult.View = View.Details;
+            lsv_SearchResult.DoubleClick += lsv_SearchResult_DoubleClick;
             // 
             // columnHeader6
             // 

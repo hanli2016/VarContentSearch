@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VarContentSearch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58015230f9aef2947affc4ea2ca5fe41f72077a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5bae3b7ad9779cf1a40d835cf5f64191ae3a124")]
 [assembly: System.Reflection.AssemblyProductAttribute("VarContentSearch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VarContentSearch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1")]

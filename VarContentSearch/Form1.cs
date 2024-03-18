@@ -84,11 +84,11 @@ namespace VarContentSearch
             List<string[]> output = new List<string[]>();
 
             string[] zipFiles = Directory.GetFiles(folderPath, "*.var", SearchOption.AllDirectories);
-            
+
             string programDirectory = AppDomain.CurrentDomain.BaseDirectory;
             string logFilePath = Path.Combine(programDirectory, "log.txt");
 
-            Parallel.ForEach(zipFiles,(zipFile, loopState) =>
+            Parallel.ForEach(zipFiles, (zipFile, loopState) =>
             {
                 try
                 {
@@ -140,14 +140,15 @@ namespace VarContentSearch
                 return;
             }
             //避免并行计数时的计数错误
-            if (completedCount> pgb_Progress.Maximum)
+            if (completedCount > pgb_Progress.Maximum)
             {
                 pgb_Progress.Value = pgb_Progress.Maximum;
             }
-            else { 
+            else
+            {
                 pgb_Progress.Value = completedCount;
             }
-            
+
         }
 
         private void lsv_SearchResult_DoubleClick(object sender, EventArgs e)
